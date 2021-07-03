@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/v_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_trace_trace"
+            android:icon="@drawable/trace_and_tracking"
+            android:title="Track and Trace" />
+        <item
+            android:id="@+id/nav_registr_complaint"
+            android:icon="@drawable/register_complaint"
+            android:title="Register Complaint" />
+      <item
+            android:id="@+id/nav_express_services"
+            android:icon="@drawable/services"
+            android:title="Express Services" />
+        <item
+           android:id="@+id/nav_tarif"
+           android:icon="@drawable/tarrif"
+           android:title="Tarif" />
+        <item
+           android:id="@+id/nav_post_code"
+           android:icon="@drawable/code"
+           android:title="Post Codes" />
+         <item
+             android:id="@+id/nav_pickup"
+             android:icon="@drawable/pick_up"
+             android:title="Pickup Services" />
+         <item
+             android:id="@+id/nav_contact_us"
+             android:icon="@drawable/contact_us"
+             android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/user_feedback"
+            android:title="Feedback" />
+
+    </group>
+
+  <!--  <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+-->
+</menu>

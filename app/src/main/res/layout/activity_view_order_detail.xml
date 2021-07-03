@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20sp"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Administration.Admin_Panel.ViewOrderDetailActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Detail Online Order"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/bc_primry"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgrounds"
+        android:padding="5dp"
+        android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorPrimary"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:id="@+id/txt_postoffice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Order ID"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_pickupdetailorderid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="10"
+                android:textAlignment="textEnd"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <!--
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/colorPrimary"/>
+        -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Service Type:"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:textColor="@color/blk"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/txt_user_pickuporderdetailservicetype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="UMS "
+                android:textAlignment="textEnd"
+                android:textColor="@color/blk"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sender Name:"
+                android:textAlignment="textStart"
+                android:textColor="@color/blk"
+                android:textStyle="bold"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/txt_user_pickupdetailordername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Abdul Waheed "
+                android:textAlignment="textEnd"
+                android:textColor="@color/blk"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sender CNIC:"
+                android:textAlignment="textStart"
+                android:textColor="@color/blk"
+                android:textStyle="bold"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/txt_user_pickupdetailcnic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="03015173663 "
+                android:textAlignment="textEnd"
+                android:textColor="@color/blk"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sender Phone No:"
+                android:textAlignment="textStart"
+                android:textColor="@color/blk"
+                android:textStyle="bold"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/txt_user_pickupdetailsenderphoneno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="03015173663 "
+                android:textAlignment="textEnd"
+                android:textColor="@color/blk"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Receiver Phone No:"
+                android:textAlignment="textStart"
+                android:textColor="@color/blk"
+                android:textStyle="bold"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/txt_user_pickupdetailreceiverphoneno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="03115173663 "
+                android:textAlignment="textEnd"
+                android:textColor="@color/blk"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sender Email:"
+                android:textAlignment="textStart"
+                android:textColor="@color/blk"
+                android:textStyle="bold"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/txt_user_pickupdetailemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="hafizmudassir107@gmail.com"
+                android:textAlignment="textEnd"
+                android:textColor="@color/blk"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Time"
+                android:textAlignment="textStart"
+                android:textColor="@color/blk"
+                android:textStyle="bold"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/txt_user_pickupdetailorderTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="12:30 "
+                android:textAlignment="textEnd"
+                android:textColor="@color/blk"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Date:"
+                android:textAlignment="textStart"
+                android:textColor="@color/blk"
+                android:textStyle="bold"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/txt_user_pickupdetailorderdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="20-01-2020"
+                android:textAlignment="textEnd"
+                android:textColor="@color/blk"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pickup City:"
+                android:textAlignment="textStart"
+                android:textColor="@color/blk"
+                android:textStyle="bold"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/txt_user_pickupdetailorderpickupcity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Islamabad"
+                android:textAlignment="textEnd"
+                android:textColor="@color/blk"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Transfer City:"
+                android:textAlignment="textStart"
+                android:textColor="@color/blk"
+                android:textStyle="bold"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/txt_user_pickuporderdetailtransfercity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Multan "
+                android:textAlignment="textEnd"
+                android:textColor="@color/blk"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Subcity:"
+                android:textAlignment="textStart"
+                android:textColor="@color/blk"
+                android:textStyle="bold"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/txt_user_pickupdetailsubcity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Seetal Mari"
+                android:textAlignment="textEnd"
+                android:textColor="@color/blk"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Near Post Office:"
+                android:textAlignment="textStart"
+                android:textColor="@color/blk"
+                android:textStyle="bold"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/txt_user_pickupdetailnearpostoffice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Mumtazabad"
+                android:textAlignment="textEnd"
+                android:textColor="@color/blk"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pickup Full Address:"
+                android:textAlignment="textStart"
+                android:textColor="@color/blk"
+                android:textStyle="bold"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/txt_user_pickupdetailpickupfulladdress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="-18.5dp"
+                android:layout_marginLeft="190dp"
+                android:text="Ali Town Seetal Mari Budhla Road Near Malik G.Store Multan "
+                android:textAlignment="textEnd"
+                android:textColor="@color/blk"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

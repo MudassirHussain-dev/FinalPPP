@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="1dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/txt_border"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ems_pluse" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text="EMS PLUS EXPORT SERVICES"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Pakistan Post has put into action a comprehensive plan to be a progressive, modern and vibrant organization, marching with the pace of the time and taking innovative measures to cater for the changing demands of its clientele.\n\nIn order to harness the opportunities that are emerging from the market and thus to enhance the Quality of Service, Pakistan Post has launched a new product for export sector companies (small and medium Enterprises) and fast, reliable and economical transmission of documents for students. It is EMS Plus a new product that is time sensitive and offers end to end tracking facility to the esteemed customers of Pakistan Post."
+                android:textColor="@color/blk"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/gray"
+                android:gravity="left"
+                android:text="SALIENT FEATURES OF SERVICE"
+                android:textColor="@color/bc_primry"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp"
+                android:text="1- The service is available in major cities and links the country with 173 countries worldwide\n\n2- It is fast yet very economical even as compared to our own EMS not to speak of the charges of private couriers\n\n3- The booking points and cities are being increased continuously\n\n4- You can send packets and parcels with Maximum weight of 30 Kg.\n\n5- It is highly reliable and secure but in case of loss a compensation is guaranteed up to USD 100\n\n6- 72 hours delivery in major countries**\n\n7- End to End Tracking and excellent after sale service"
+                android:textColor="@color/blk"></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

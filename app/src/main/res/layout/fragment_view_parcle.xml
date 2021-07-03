@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Parcel Register Detail"
+        android:textColor="@color/bc_primry"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+-->
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewparcel_serachview" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Recyler_viewParcle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/hello"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>

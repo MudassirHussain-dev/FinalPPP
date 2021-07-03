@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="1dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/txt_border"
+            android:padding="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ums" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text="URGENT MAIL SERVICES"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Urgent MailService(UMS) is a fast, reliable, efficient and secure overnight /2nd day home delivery service with widest network for dispatch of documents and parcels. Computerized track and trace system is available."
+                android:textColor="@color/blk"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="Contents"
+                android:background="@color/gray"
+                android:textColor="@color/bc_primry"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="The UMS articles are items of first class letter mail. Currency notes, coins, platinum, gold bullions, silver bullions, precious stones, precious metals fire arms, explosives, flammable liquids, perishables and anything the intrinsic value of which exceeds two thousand rupees shall not be sent by UMS."
+                android:textColor="@color/blk"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="Product Mix"
+                android:background="@color/gray"
+                android:textColor="@color/bc_primry"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1-UMS (Local)\n\n2-UMS (City to City)\n\n3-UMS (Counter Collection"
+                android:textColor="@color/blk"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="Weight and Size"
+                android:background="@color/gray"
+                android:textColor="@color/bc_primry"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1-The maximum permissible weight limit of a UMS article is 30 kilograms.\n\n2-The maximum size of UMS article may not exceed:\n           Length : 1.50 meters\n           Length and width combine : 2.00 meters"
+                android:textColor="@color/blk"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="Pick up and credit facility"
+                android:background="@color/gray"
+                android:textColor="@color/bc_primry"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp"
+                android:text="The bulk customers having monthly billing of Rs. 7,000 or above can avail monthly Pick up and Credit Facility. All bulk customers including commercial organizations, institutions, and multinational companies can avail pick up and credit facility by filling up a registration form. The nearest G.P.O / Express Post Centre will provide all necessary details and fully help in completion of all formalities for registration.\n\nAfter registration, Express Post Pick Up Couriers will daily visit offices of registered customers daily according to a pre-arranged schedule.Emergency on Call Pick up Facility is also available for registered customers.Billing on monthly basis for making payment within 7 days of receipt of bill."
+                android:textColor="@color/blk"></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

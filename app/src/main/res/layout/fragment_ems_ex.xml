@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="1dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/txt_border"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ems" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text="EXPRESS MAIL SERVICES"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="For prompt transmission and speedy delivery of postal articles Express Mail Service (EMS) is offered from Major domestic locations for 104 countries of the world. Documents, packets and parcels can be sent through EMS. The maximum weight of EMS item is 30 kilograms."
+                android:textColor="@color/blk"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="SPECIAL FEATURES OF THE SERVICE"
+                android:background="@color/gray"
+                android:textColor="@color/bc_primry"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1- A truly global Fast and Economical Solution for dispatch of documents/merchandise\n\n2- Special treatment during customs clearance.\n\n3- Viable/speedy transshipment and prompt delivery\n\n4-Booking facility available even in the late hours\n\n5- Direct dispatches for most of the countries\n\n6- Government undertakes liability in case of loss\n\n7- Pick up facility for bulk registered customers\n\n8- Global track and trace facility"
+                android:textColor="@color/blk"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="Maximum Weight of An EMS Item"
+                android:background="@color/gray"
+                android:textColor="@color/bc_primry"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="An EMS item will be accepted for booking upto a maximum weight of 30 KG"
+                android:textColor="@color/blk"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="Maximum Size"
+                android:background="@color/gray"
+                android:textColor="@color/bc_primry"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1-  Length 1.50 meters for any one dimension\n\n2-  Length and girth combined 3 meters"
+                android:textColor="@color/blk"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="Terms and Conditions"
+                android:background="@color/gray"
+                android:textColor="@color/bc_primry"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1- The complete mailing address should be accurate and neatly written/types\n\n2- Telephone numbers of sender and address may also be indicated on the item to be sent\n\n3- Each item shall be packed and closed in a manner with proper weight, shape and the nature of contents as well as the mode of transportation and duration of conveyance\n\n4- Each item shall be packed and closed so as not to pose any threat either to the handing officials or damage other mail/postal equipment"
+                android:textColor="@color/blk"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="ITEMS CONTAINING GOODS OR MERCHANDISE REQUIRING CUSTOMS INSPECTION"
+                android:textColor="@color/bc_primry"
+                android:background="@color/gray"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1- All outbound EMS items are subject to Customs inspection and clearance and should satisfy local Export Regulation’s and destination countries Imports’ Regulations\n\n2- Each item containing goods or merchandise shall be accompanied by properly completed Customs declaration\n\n3- The contents of each such item shall be shown in detail on the customs declaration conspicuously and discretely"
+                android:textColor="@color/blk"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="Compensation"
+                android:background="@color/gray"
+                android:textColor="@color/bc_primry"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Provided that a complaint regarding loss, non-delivery of an EMS item is preferred to the office concerned within 30 days of an article, in case of an established loss of an EMS article due to the fault of the Post, the liability will be accepted and compensation made commensurate with actual loss to the maximum extent of the following limits:-\n     1- For an item containing only documents : 30 SDR\n     2- For an item containing other articles : 130 SDR"
+                android:textColor="@color/blk"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="Prohibition"
+                android:background="@color/gray"
+                android:textColor="@color/bc_primry"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1- Animal, arms/ammunitions, Explosives, Coins, Bank notes, Currency note, Securities of any kind payable to the bearer, traveler cheques, platinum, Gold or Silver, precious Stones/Metals, other valuable articles/Stamps, Pornographic Material, Passport, Hazardous or Composedly Material, Narcotic’s, Antique Blank Cheques, Blank Credit Cards, Gambling Devices, Radioactive material, perishables biological substances, infection substances, etc\n\n2- Prohibition laid down in Uniserial Postal Union Convention shall also apply to EMS article"
+                android:textColor="@color/blk"
+                android:layout_marginBottom="40dp"></TextView>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

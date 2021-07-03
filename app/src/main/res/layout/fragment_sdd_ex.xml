@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="1dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/sdd" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text="SAME DAY DELIVERY"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Pakistan Post has started new service for twin cities i.e. Rawalpindi and Islamabad for delivery of Express Post articles on the day of booking."
+                android:textColor="@color/blk"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:background="@color/gray"
+                android:text="Service Features"
+                android:textColor="@color/bc_primry"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginTop="-10dp"
+                android:textColor="@color/blk"
+                android:text="1- Select Pakistan Post’s flexible Same Day Delivery service\n\n2- Important and urgent items that need immediate delivery\n\n3- Booking upto 20 kg and delivery upto 5 kg at doorstep\n\n4- Delivery beyond 5 kg and upto 20 kg on counter\n\n5- Ideal for delivery Service within twin cities Islamabad,Rawalpindi\n\n6- Preferred choice for Business to Business needs\n\n7- Dedicated handling and support desk.\n\n8- Service will be available in selected areas of twin cities.\n\n9- The delivery information will be communicated through SMS"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

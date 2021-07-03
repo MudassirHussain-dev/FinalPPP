@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="3dp"
+        android:text="Online Pickup Order"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Select The Service Type "
+                android:textColor="@color/colorPrimary"
+                android:textSize="8dp"
+                android:textStyle="italic" />
+
+
+            <Spinner
+                android:id="@+id/spinner_pickup_services"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/bac_ground"
+                android:entries="@array/Services"
+                android:prompt="@string/PostServices"
+                android:textAlignment="center"></Spinner>
+
+
+            <EditText
+                android:id="@+id/et_pickupname"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_enter"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bac_ground"
+                android:gravity="center"
+                android:hint="Enter Full Name"></EditText>
+
+            <EditText
+                android:id="@+id/et_pickupcnic"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_enter"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bac_ground"
+                android:gravity="center"
+                android:hint="Enter CNIC Number"
+                android:inputType="number"
+                android:singleLine="true"></EditText>
+
+            <EditText
+                android:id="@+id/et_pickupsenderphoneno"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_enter"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bac_ground"
+                android:gravity="center"
+                android:hint="Sender Phone Number"
+                android:inputType="number"
+                android:singleLine="true"></EditText>
+
+            <EditText
+                android:id="@+id/et_pickupreciever"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_enter"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bac_ground"
+                android:gravity="center"
+                android:hint="Receiver Phone Number"
+                android:inputType="number"
+                android:singleLine="true"></EditText>
+
+
+            <EditText
+                android:id="@+id/et_pickupcity"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_enter"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bac_ground"
+                android:gravity="center"
+                android:hint="Enter Pickup City"
+                android:singleLine="true"></EditText>
+
+            <EditText
+                android:id="@+id/et_pickupsubcity"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_enter"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bac_ground"
+                android:gravity="center"
+                android:hint="Enter Sub City"
+                android:singleLine="true"></EditText>
+
+
+            <EditText
+                android:id="@+id/et_pickuptransfercity"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_enter"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bac_ground"
+                android:gravity="center"
+                android:hint="Enter Transfer City"
+                android:singleLine="true"></EditText>
+
+
+            <!--<EditText
+               android:id="@+id/et_pickupdistrict"
+               android:layout_width="300dp"
+               android:layout_height="50dp"
+               android:layout_below="@+id/txt_enter"
+               android:layout_gravity="center"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/bac_ground"
+               android:gravity="center"
+               android:singleLine="true"
+               android:hint="Enter District Name"
+               android:inputType="number"></EditText>-->
+
+            <EditText
+                android:id="@+id/et_pickuppostoffice"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_enter"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bac_ground"
+                android:gravity="center"
+                android:hint="Near Post Office"
+                android:singleLine="true"></EditText>
+
+            <EditText
+                android:id="@+id/et_pickupfulladdress"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_enter"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bac_ground"
+                android:gravity="center"
+                android:hint="Pickup Loacation"
+                android:singleLine="true"></EditText>
+
+            <EditText
+                android:id="@+id/et_pickupemail"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_enter"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bac_ground"
+                android:gravity="center"
+                android:hint="Enter Email Account"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"></EditText>
+
+
+            <Button
+                android:id="@+id/btn_confromOrder"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_article_number"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimary"
+                android:text="Conform Order"
+                android:textColor="@color/white"></Button>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

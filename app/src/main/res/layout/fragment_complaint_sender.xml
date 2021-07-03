@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="20sp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="SENDER DETAIL"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:text="Add Sender Detail"
+                android:textColor="@color/colorPrimary"
+                android:textSize="8sp"
+                android:textStyle="italic" />
+
+
+            <EditText
+                android:id="@+id/et_senderName"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_enter"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bac_ground"
+                android:gravity="center"
+                android:hint="Sender Name"
+                android:singleLine="true"></EditText>
+
+            <EditText
+                android:id="@+id/et_senderMobileno"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_enter"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bac_ground"
+                android:gravity="center"
+                android:hint="Mobile Number"
+                android:inputType="number"
+                android:singleLine="true"></EditText>
+
+
+            <EditText
+                android:id="@+id/et_senderCity"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_enter"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bac_ground"
+                android:gravity="center"
+                android:hint="Sender City"
+                android:singleLine="true"></EditText>
+
+            <EditText
+                android:id="@+id/et_senderAddress"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_enter"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bac_ground"
+                android:gravity="center"
+                android:hint="Sender Address"
+                android:singleLine="true"></EditText>
+            <EditText
+                android:id="@+id/et_senderEmail"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_enter"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bac_ground"
+                android:gravity="center"
+                android:hint="Sender Email"
+                android:singleLine="true"></EditText>
+
+
+            <Button
+                android:id="@+id/btn_next_second"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="25dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="NEXT"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

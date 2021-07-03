@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="1dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/txt_border"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_marginLeft="-20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/cod" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text="DOD SERVICE"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="The “Cash on Delivery” service is one of the most promising services which are provided by an electronic media as well as websites involved in online buying and selling. Provision of such services is becoming more and more important, as we know the concept of electronic media and online shopping is gaining popularity with each passing day. Even though online shopping is gaining popularity but that still doesn’t mean that Pakistan has completely accepted the online buying and selling trend.\n\nTherefore, in order to gain the confidence of the postal clientele and to capture the market share, Cash on Delivery service is started by using well established and large network of postal outlets of UMS under the name of “UMS COD”. UMS Cash on Delivery (COD) Service has been launched at 226 locations linked with UMS network.\n\nThe COD system is designed to meet requirement of persons/businesses who wish to pay for articles sent to them at the time of receipt of the articles relating to them and also meet the requirements of traders and others who wish to recover, through the agency of the post office the value of articles supplied by them.\n\nPackets, parcels and printed papers prepaid with postage of UMS fee may be transmitted by the inland post as COD articles, provided that the amount specified for remittance to the sender in the case of any such articles does not exceed Rs.100,000/-."
+                android:textColor="@color/blk"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/gray"
+                android:gravity="left"
+                android:text="Contents"
+                android:textColor="@color/bc_primry"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="The UMS COD articles will be items of letter and parcel mail with no restriction on contents except anything the transmission of which through Post is prohibited. All UMS items will not be treated as registered articles and may, therefore, have contents which are permissible to be sent by registered post, However, the UMS COD articles will be given special treatment during the course of their transmission by post from the time of booking till delivery."
+                android:textColor="@color/blk"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/gray"
+                android:gravity="left"
+                android:text="Product Mix"
+                android:textColor="@color/bc_primry"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1- UMS COD (Local)\n\n2- UMS COD (City to City)"
+                android:textColor="@color/blk"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/gray"
+                android:gravity="left"
+                android:text="Weight and Size"
+                android:textColor="@color/bc_primry"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp"
+                android:text="The maximum permissible weight limit of a UMS COD is thirty (30) kilograms."
+                android:textColor="@color/blk"></TextView>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

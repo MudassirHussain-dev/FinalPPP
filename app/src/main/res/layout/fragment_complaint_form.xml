@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:padding="20sp"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="CREATE COMPLAINT"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:text="Add Complainant and Booking Details "
+                android:textColor="@color/colorPrimary"
+                android:textSize="8sp"
+                android:textStyle="italic" />
+
+
+            <EditText
+                android:id="@+id/et_fullName"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_enter"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bac_ground"
+                android:gravity="center"
+                android:hint="Name"
+                android:singleLine="true"></EditText>
+
+            <EditText
+                android:id="@+id/et_mobileNumber"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_enter"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bac_ground"
+                android:gravity="center"
+                android:inputType="number"
+                android:hint="Mobile Number"
+                android:singleLine="true"></EditText>
+
+
+            <!--
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/gray">
+                            <EditText
+                                android:layout_width="130dp"
+                                android:layout_height="40dp"
+                                android:hint="Choice Date"
+                                android:textAlignment="center"
+                                android:id="@+id/et_datePicker"/>
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/btn_choiceDate"
+                                android:background="@color/gray"
+                                android:padding="3dp"
+                                android:text="Choice Date"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/txt_date"
+                                android:layout_marginLeft="10dp"
+                                android:text="Jan,01,1996"/>
+                        </LinearLayout>
+
+            -->
+
+            <EditText
+                android:id="@+id/et_datePicker"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_enter"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bac_ground"
+                android:clickable="false"
+                android:editable="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="Date"></EditText>
+
+            <EditText
+                android:id="@+id/et_timePicker"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_enter"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bac_ground"
+                android:clickable="false"
+                android:editable="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="Time"></EditText>
+
+
+            <EditText
+                android:id="@+id/et_booking_complaint_office"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_enter"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bac_ground"
+                android:gravity="center"
+                android:hint="Booking City Office"
+                android:singleLine="true"></EditText>
+
+            <EditText
+                android:id="@+id/et_delivery_complaint_office"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_enter"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bac_ground"
+                android:gravity="center"
+                android:hint="Transfer City"></EditText>
+
+
+            <EditText
+                android:id="@+id/et_complaint_city"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_enter"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bac_ground"
+                android:gravity="center"
+                android:hint="Complainant City"></EditText>
+
+
+            <Button
+                android:id="@+id/btn_next_create_complaint"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:background="@color/colorPrimary"
+                android:text="NEXT"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+
+            <!-- <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="10dp"
+                 android:text="Sender Detail"
+                 android:textColor="@color/colorPrimary"
+                 android:textSize="20sp"
+                 android:textStyle="bold" />
+
+             <EditText
+                 android:id="@+id/et_senderName"
+                 android:layout_width="300dp"
+                 android:layout_height="50dp"
+                 android:layout_below="@+id/txt_enter"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="10dp"
+                 android:background="@drawable/bac_ground"
+                 android:singleLine="true"
+                 android:gravity="center"
+                 android:hint="Enter Sender Name"></EditText>
+
+             <EditText
+                 android:id="@+id/et_senderMobileno"
+                 android:layout_width="300dp"
+                 android:singleLine="true"
+                 android:layout_height="50dp"
+                 android:layout_below="@+id/txt_enter"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="10dp"
+                 android:background="@drawable/bac_ground"
+                 android:gravity="center"
+                 android:hint="Sender Mobile Number"></EditText>
+
+             <EditText
+                 android:id="@+id/et_senderEmail"
+                 android:layout_width="300dp"
+                 android:layout_height="50dp"
+                 android:layout_below="@+id/txt_enter"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="10dp"
+                 android:background="@drawable/bac_ground"
+                 android:singleLine="true"
+                 android:gravity="center"
+                 android:hint="Sender Email"></EditText>
+
+
+             <Spinner
+                 android:id="@+id/senderCity"
+                 android:layout_width="300dp"
+                 android:layout_height="50dp"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="15dp"
+                 android:autofillHints="Sender City"
+                 android:background="@drawable/bac_ground" />
+
+             <EditText
+                 android:id="@+id/et_senderAddress"
+                 android:layout_width="300dp"
+                 android:layout_height="50dp"
+                 android:layout_below="@+id/txt_enter"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="10dp"
+                 android:singleLine="true"
+                 android:background="@drawable/bac_ground"
+                 android:gravity="center"
+                 android:hint="Sender Address"></EditText>
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="10dp"
+                 android:text="Addressee Detail"
+                 android:textColor="@color/colorPrimary"
+                 android:textSize="20sp"
+                 android:textStyle="bold" />
+
+             <EditText
+                 android:id="@+id/et_addressName"
+                 android:layout_width="300dp"
+                 android:layout_height="50dp"
+                 android:layout_below="@+id/txt_enter"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="10dp"
+                 android:singleLine="true"
+                 android:background="@drawable/bac_ground"
+                 android:gravity="center"
+                 android:hint="Enter Addressee Name"></EditText>
+
+             <EditText
+                 android:id="@+id/et_AddressMobileno"
+                 android:layout_width="300dp"
+                 android:layout_height="50dp"
+                 android:layout_below="@+id/txt_enter"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="10dp"
+                 android:background="@drawable/bac_ground"
+                 android:gravity="center"
+                 android:singleLine="true"
+                 android:hint="Addressee Mobile Number"></EditText>
+
+             <EditText
+                 android:id="@+id/et_addressEmail"
+                 android:layout_width="300dp"
+                 android:layout_height="50dp"
+                 android:layout_below="@+id/txt_enter"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="10dp"
+                 android:singleLine="true"
+                 android:background="@drawable/bac_ground"
+                 android:gravity="center"
+                 android:hint="Addressee Email"></EditText>
+
+
+             <Spinner
+                 android:id="@+id/addressCity"
+                 android:layout_width="300dp"
+                 android:layout_height="50dp"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="15dp"
+                 android:autofillHints="Sender City"
+                 android:background="@drawable/bac_ground" />
+
+             <EditText
+                 android:id="@+id/et_addressAddress"
+                 android:layout_width="300dp"
+                 android:layout_height="50dp"
+                 android:layout_below="@+id/txt_enter"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="10dp"
+                 android:singleLine="true"
+                 android:background="@drawable/bac_ground"
+                 android:gravity="center"
+                 android:hint="Addressee Address"></EditText>
+
+
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:layout_marginTop="40dp"
+     android:text="Please Select the following Services Category"
+     android:textColor="@color/colorPrimary"
+     android:textSize="10dp" />
+
+ <Spinner
+     android:id="@+id/spinner_register_complaint"
+     android:layout_width="300dp"
+     android:layout_height="50dp"
+     android:layout_gravity="center"
+     android:background="@drawable/bac_ground"
+     android:textAlignment="center"></Spinner>&ndash;&gt;
+
+ <Button
+     android:id="@+id/btn_create_complaint"
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_gravity="center_horizontal"
+     android:layout_margin="35dp"
+     android:background="@color/colorPrimary"
+     android:text="CREATE COMPLAINT"
+     android:textColor="@color/white" />-->
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

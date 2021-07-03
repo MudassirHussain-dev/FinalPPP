@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Pakistan_Post</string>
+
+    <!--PHP FILE START-->
+    <string name="reg">https://www.dabonjour.com/Mudassir/reg.php</string>
+    <string name="admin_create_account">http://www.dabonjour.com/Mudassir/admin_create_account.php</string>
+    <string name="login">https://www.dabonjour.com/Mudassir/login1.php</string>
+    <string name="get_posctcoes">https://www.dabonjour.com/Mudassir/get_posctcoes.php</string>
+    <string name="inset_parcel">http://www.dabonjour.com/Mudassir/insert_tracking.php</string>
+    <string name="getContactUs">http://www.dabonjour.com/Mudassir/view_contact_us.php</string>
+    <string name="get_All_service">http://www.dabonjour.com/Mudassir/get_All_services.php</string>
+    <string name="get_All_my_cities">http://www.dabonjour.com/Mudassir/get_All_MyCities.php</string>
+    <string name="get_view_compliant"> http://www.dabonjour.com/Mudassir/view_complaint.php</string>
+    <string name="InsertComplaint"> http://www.dabonjour.com/Mudassir/datauploader.php</string>
+    <string name="view_parcel_registerd">http://dabonjour.com/Mudassir/view_parcel_tracking.php</string>
+    <string name="root_ip">http://www.dabonjour.com/</string>
+    <string name="view_pickup_order_by_call">http://www.dabonjour.com/Mudassir/view_pickup_service_Contact.php</string>
+    <string name="view_usertype">http://www.dabonjour.com/Mudassir/view_type_user.php</string>
+    <string name="request_pickup_order">http://www.dabonjour.com/Mudassir/insert_pickup_order.php</string>
+    <string name="view_online_order">http://www.dabonjour.com/Mudassir/view_online_order.php</string>
+    <string name="insert_feedback">http://www.dabonjour.com/Mudassir/insert_feedback.php</string>
+    <string name="view_feedback">http://www.dabonjour.com/Mudassir/view_feedback.php</string>
+    <string name="deleteusrtype">http://www.dabonjour.com/Mudassir/delete_usertype.php</string>
+    <string name="updateusertype">http://www.dabonjour.com/Mudassir/update_profile.php</string>
+
+    <!--PHP FILE END-->
+
+    <string name="PREF_FILE">mypakistsanpostoffice</string>
+    <string name="title_activity_main">Pakistan Post</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="show_pwd">Show Password</string>
+    <string name="hide_pwd">Hide Password</string>
+    <string name="title_activity_locate_post_office">LocatePostOfficeActivity</string>
+
+    <string name="PostServices">SelectCity</string>
+    <string-array name="Services">
+        <item>UMS</item>
+        <item>EMS</item>
+        <item>FMS</item>
+        <item>COD</item>
+        <item>EMS_PES</item>
+        <item>SDD</item>
+        <item>FXO</item>
+        <item>UMO</item>
+        <item>EMO</item>
+    </string-array>
+
+    <string name="Selectusertype">UserType</string>
+    <string-array name="UserType">
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+
+
+    <string name="SearchingCity">SelectCity</string>
+    <string-array name="city">
+
+        <item>Multan</item>
+        <item>Islamabad</item>
+        <item>Attock</item>
+        <item>Bahawalnagar</item>
+        <item>Bahawalpur</item>
+        <item>Bhakkar</item>
+       <!-- <item>Chakwal</item>-->
+        <item>D.G Khan</item>
+        <item>Faisalabad</item>
+        <!-- <item>Gujranwala</item>
+        <item>Gujrat</item>
+        <item>Hafizabad</item>
+        <item>Jhang</item>
+        <item>Jhelum</item>
+        <item>Kasur</item>
+        <item>Khanewal</item>
+        <item>Khushab</item>-->
+        <item>Lahore</item>
+        <!--     <item>Layyah</item>
+        <item>Lodhran</item>
+        <item>Mandi Bahauddin</item>
+        <item> Mianwali </item>
+        <item>Muzaffargarh</item>
+        <item>Nankana Sahib</item>
+        <item>Narowal</item>
+        <item>Okara</item>
+        <item>Pakpattan</item>
+        <item>Rahim Yar Khan</item>
+        <item>Rajanpur</item>
+        <item>Rawalpindi</item>
+        <item>Sahiwal</item>
+        <item>Sargodha</item>
+        <item>Sheikhupura</item>
+        <item>Sialkot</item>
+        <item>Toba Tek Singh</item>
+        <item>Vehari</item>
+-->
+
+    </string-array>
+    <string name="SearchingCity1">SelectCity</string>
+    <string-array name="city1">
+        <item>Islamabad</item>
+        <item>Multan</item>
+        <item>Attock</item>
+        <item>Bahawalnagar</item>
+        <item>Bahawalpur</item>
+        <item>Bhakkar</item>
+        <item>D.G Khan</item>
+        <item>Faisalabad</item>
+        <item>Lahore</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_admin_dash_board">AdminDashBoardActivity</string>
+
+</resources>

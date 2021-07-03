@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="1dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/txt_border">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:src="@drawable/fax_money" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="FAX MONEY ORDER"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="1- The maximum amount for which a single Fax Money Order may be booked and issue will not exceed Fifty Thousand Rupees(50,000/-).\n\n2- A Fax Money Order will be accepted for booking in whole rupees only. It will be accepted for transmission if the amount to be remitted is in fraction of rupee.\n\n3- A Fax Money Order exceeding the amount Rs.20,000/- will not be paid to the payee at his door steps in any case the designated FMO Payment Office.
+"
+            android:textColor="@color/blk"></TextView>
+
+    </LinearLayout>
+
+
+<!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/txt_border">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:src="@drawable/fax_money" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="FAX MONEY ORDER"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginTop="-10dp"
+            android:text="1)-The maximum amount for which a single Fax Money Order may be booked and issue will not exceed Fifty Thousand Rupees(50,000/-)\n2)-A Fax Money Order will be accepted for booking in whole rupees only. It will be accepted for transmission if the amount to be remitted is in fraction of rupee\n3)-A Fax Money Order exceeding the amount Rs.20,000/- will not be paid to the payee at his door steps in any case the designated FMO Payment Office"
+            android:textColor="@color/blk" />
+    </LinearLayout>
+-->
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="myEditTextStyle">
+        <item name="android:colorControlHighlight">#ffff</item>
+        <item name="android:colorControlActivated">#ffff</item>
+        <item name="android:colorControlNormal">#ffff</item>
+        <item name="android:colorAccent">#ffff</item>
+        <item name="android:textColorHint">#ffff</item>
+    </style>
+</resources>

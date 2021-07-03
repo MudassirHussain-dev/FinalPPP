@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/my_layout"
+    android:padding="20sp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/backgrounds">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Compaint ID:"
+                android:textColor="@color/blk"
+                android:layout_weight="1"
+                android:textSize="15dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="45"
+                android:textColor="@color/blk"
+                android:textSize="15dp"
+                android:textAlignment="textEnd"
+                android:id="@+id/txt_complaint_ID_one"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Article Number:"
+                android:textColor="@color/blk"
+                android:layout_weight="1"
+                android:textSize="15dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UMS"
+                android:textColor="@color/blk"
+                android:textSize="15dp"
+                android:textAlignment="textEnd"
+                android:id="@+id/txt_complaint_service_number_one"
+                android:layout_weight="1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="74469192"
+                android:textColor="@color/blk"
+                android:textSize="15dp"
+                android:textAlignment="textEnd"
+                android:id="@+id/txt_complaint_article_number_one"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:textColor="@color/blk"
+                android:layout_weight="1"
+                android:textSize="15dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adil Hussain"
+                android:textColor="@color/blk"
+                android:textSize="15dp"
+                android:textAlignment="textEnd"
+                android:id="@+id/txt_sender_Name_one"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Booking Office:"
+                android:textColor="@color/blk"
+                android:layout_weight="1"
+                android:textSize="15dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Multan"
+                android:textColor="@color/blk"
+                android:textSize="15dp"
+                android:textAlignment="textEnd"
+                android:id="@+id/txt_booking_complaint_office_one"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address:"
+                android:textColor="@color/blk"
+                android:layout_weight="1"
+                android:textSize="15dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ali Town Seetal, Multan"
+                android:textColor="@color/blk"
+                android:textSize="15dp"
+                android:textAlignment="textEnd"
+                android:id="@+id/txt_sender_address_one"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

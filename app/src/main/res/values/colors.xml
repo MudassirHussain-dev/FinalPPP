@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary1">#008577</color>
+    <color name="colorPrimaryDark1">#ca0002</color>
+    <color name="colorAccent1">#D81B60</color>
+    <color name="pakred">#e43f3f</color>
+    <color name="white1">#eafefeff</color>
+    <color name="colorPrimary">#ca0002</color>
+    <color name="colorPrimaryy">#F0200E</color>
+    <color name="colorPrimaryDark">#F44336</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#f000</color>
+    <color name="white">#eafefeff</color>
+    <color name="blk">#241A1A</color>
+    <color name="gray">#D5CBCB</color>
+    <color name="n_blk">#161515</color>
+    <color name="n_back_g">#303030</color>
+    <color name="bc_primry">#ca0002</color>
+    <color name="getany">#eafefeff</color>
+</resources>

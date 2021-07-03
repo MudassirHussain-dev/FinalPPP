@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Users Complaints"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/hello"
+        android:textColor="@color/bc_primry"
+        android:textAlignment="center"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Recyler_complaint"
+        android:layout_below="@id/hello"/>
+</RelativeLayout>

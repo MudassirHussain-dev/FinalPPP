@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/txt_border"
+    android:padding="1dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/emo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text="ELECTRONIC MONEY ORDER"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Electronic Money Order (EMO) is the swift way to transfer money from one post office to other post office. The Riposte system is considered as the safe, affordable and accurate to transfer money in Pakistan among 83 GPOs. Currently, a number of postal administrations are using Riposte to deliver money order services around the world. The post offices using such system have not only reduced the overhead costs of running the services by removing the paper intensive aspects but also reduce frauds by using Riposte. This service is available at 83 GPOs of the country."
+                android:textColor="@color/blk"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/gray"
+                android:gravity="left"
+                android:text="Electronic Money Order (EMO) is of two types"
+                android:textColor="@color/bc_primry"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="i) Post-to-Post\n\nii) Post-to-doorstep\n\nInitially the Electronic Money Order (EMO) shall offer the window payment at the concerned GPO which is known as Post - to - Post ."
+                android:textColor="@color/blk"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/gray"
+                android:gravity="left"
+                android:text="Salient features of Electronic Money Order (EMO) are"
+                android:textColor="@color/bc_primry"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1- Booking of money orders at the counters\n\n2- Instant Transmission of money order through Riposte system\n\n3-  Available to encash at any GPO instantly\n\n4- More secure with unique transaction identifier\n\n5- SMS notification"
+                android:textColor="@color/blk"></TextView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="About Us"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Pakistan Post Office is one of the oldest government departments in the Sub-Continent. In 1947, it began functioning as the Department of Post and Telegraph. In 1962 it was separated from the Telegraph and Telephone and started working as an independent attached department."
+                android:textAlignment="inherit"
+                android:textColor="@color/blk"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Postal Network"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Pakistan Post is providing postal services in every nook and corner of the country through a network of around 13,000 post offices. Pakistan Post is providing delivery services to about 20 million households and businesses as community service without any cost considerations. In addition to its traditional role, the Pakistan Post also performs agency functions on behalf of Federal and Provincial governments, which inter-alias include Savings Bank, Postal Life Insurance, Collection of Taxes, Collection of Electricity, Water, Sui Gas and Telephone bills.\n\nPakistan Post is also providing a universal postal service network in harmony with the Universal Postal Union (UPU) strategy to ensure secure and timely delivery of mail, money and material at affordable cost through utilization of people, process and technology and innovative product offerings."
+                android:textAlignment="inherit"
+                android:textColor="@color/blk"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Organization"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="An autonomous High Powered Postal Services Management Board has been established through Pakistan Postal Services Management Board Ordinance, 2002. The executive management of postal and allied services below the Directorate General is done at three levels – the Circle Level, the Regional Level and Divisional / District Level.\n\nEach Circle is headed by a Postmaster General and its territorial jurisdiction extends to a province. In carrying out their responsibilities, the Postmasters General are assisted by the Regional Deputy Postmasters General and Unit Officers at operational level."
+                android:textAlignment="inherit"
+                android:textColor="@color/blk"></TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="110dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/cc" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Murad Saeed\nFederal Minister for\nCommunications"
+                        android:textAlignment="center"
+                        android:textColor="@color/blk" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="110dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/aaa" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jawad Rafique Malik\nSecretary\nPostal Services"
+                        android:textAlignment="center"
+                        android:textColor="@color/blk" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="110dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/bbb" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Muhammad Akhlaque Rana\nChairman/Director\nGeneral"
+                        android:textAlignment="center"
+                        android:textColor="@color/blk" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
